@@ -1,0 +1,1 @@
+# para realizar el pyoyecto fue necesario crear la variable la cual solicita el nombre del usuario que vaya a entrar en el programa. Se agrega un INPUT para crear la variable que solicita el nombre como texto, y luego se da la orden de imprimir esta variable como STR para que se puede indicar la accion que va a realizar. En este caso, pedir el nombre de el usuario.

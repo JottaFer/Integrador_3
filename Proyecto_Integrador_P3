@@ -1,0 +1,41 @@
+"""import os
+import readchar
+
+def Limpiar_terminal(numero):
+    os.system ('cls' if os.name == 'nt' else 'clear') 
+    if numero == 50:
+               print("Aumenta numero")
+    else: 
+               print (f'numero actual: {numero}')
+
+    numero = 0
+    while numero <= 50:
+
+
+        key = readchar.readkey()
+
+        if key =='n':
+            Limpiar_terminal(numero)
+            numero+=1"""
+
+
+import os
+import readchar
+
+def clear_terminal(number):
+    os.system('cls' if os.name == 'nt' else 'clear')
+    if number == 50:
+               print("aumentara contador hasta finalizar programa")
+ 
+    else:
+               print(f'Número actual: {number}')
+        
+number = -10
+while number <= 50:
+       
+     
+    key = readchar.readkey()
+         
+    if key =='n':
+        clear_terminal(number)
+        number+=1

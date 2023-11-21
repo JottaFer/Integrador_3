@@ -1,24 +1,3 @@
-"""import os
-import readchar
-
-def Limpiar_terminal(numero):
-    os.system ('cls' if os.name == 'nt' else 'clear') 
-    if numero == 50:
-               print("Aumenta numero")
-    else: 
-               print (f'numero actual: {numero}')
-
-    numero = 0
-    while numero <= 50:
-
-
-        key = readchar.readkey()
-
-        if key =='n':
-            Limpiar_terminal(numero)
-            numero+=1"""
-
-
 import os
 import readchar
 
